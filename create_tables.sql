@@ -134,3 +134,9 @@ CREATE TABLE char_lifepath(
 	REFERENCES characters(char_id)
 	);
 	
+CREATE TABLE glossary(
+	term VARCHAR(150),
+	description TEXT,
+	CONSTRAINT fk_glossary PRIMARY KEY (term)
+	);
+	
