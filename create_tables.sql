@@ -32,6 +32,7 @@ CREATE TABLE traits(
 	description TEXT,
 	trait_type VARCHAR(10),
 	points INT(3),
+	restrictions VARCHAR(50),
 	CONSTRAINT pk_traits PRIMARY KEY (name)
 	);
 	
